@@ -1,5 +1,5 @@
 //v1.00
-//adds two non-negative arbitrary-precision integers 
+//adds two non-negative arbitrary precision integers 
 
 //includes
 
