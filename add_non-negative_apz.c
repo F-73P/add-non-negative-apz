@@ -6,9 +6,9 @@
 #include <stdint.h>
 #include "apz.h"
 
-//variables                    
+//global variables                    
 
-uint32_t limbs; //number of limbs of sum
+uint32_t limbs; //sign and number of limbs of sum
 
 uint32_t m;
 uint32_t n;
@@ -29,7 +29,7 @@ int main(void) {
     n = two[0];
     v = &two[1];      
     
-    limbs = add_non_negative_apz(m, u, n, v); //breakpoint 1
+    limbs = add_non_negative_apz(m, u, n, v); 
       
-    while (1); //breakpoint 2
+    while (1); 
 }
